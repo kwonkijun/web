@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* 플렉스 박스로 만드는 것 */
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            /* justify-content: center;
+            align-items: center;  */
+        }
+        .box {
+            width : 150px;
+            height : 150px;
+            margin-right: 10px;
+            margin-bottom: 30px;
+            background-color: cadetblue;
+        }
+        .box:nth-child(1){
+            flex-grow: 1;
+            background-color: coral;
+        }
+        .box:nth-child(2){
+            flex-grow: 1;
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

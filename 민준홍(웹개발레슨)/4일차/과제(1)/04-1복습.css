@@ -29,15 +29,20 @@
     left: 60%;
 }
 
-.info {
-    display: flex;
-    justify-content: space-between;
-    font-size : 6px;
-    margin : 0px 10px;
+.subtitleright {
+    display: inline-block;
+    font-size: 6px;
+    position: relative;
+    left: 10px;
+    top: 10px;
 }
 
-.info > .subtitlemiddle{
-    margin-right : 30px;
+/*윗쪽으로 어떻게 붙임..? subtitleright의 중간으로 간듯*/
+.subtitleleft {
+    display: inline-block;
+    font-size: 6px;
+    position: relative;
+    left: 30px;
 }
 
 .line1 {

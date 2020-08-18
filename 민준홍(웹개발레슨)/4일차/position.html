@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width : 150px;
+            height : 150px;
+            margin-bottom: 30px;
+            background-color: cadetblue;
+        }
+        .box:nth-child(2){
+            position: relative;
+            z-index: 3;
+            /* right : 20px; */
+        }
+        .box:nth-child(1){
+            position: fixed;
+            z-index: 2;
+            top: 50px;
+            left: 50px;
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>

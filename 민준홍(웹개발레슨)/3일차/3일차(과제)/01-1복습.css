@@ -1,0 +1,41 @@
+@font-face { font-family: 'BMJUA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); font-weight: normal; font-style: normal; }
+.all {
+    background-color: rgb(224, 196, 10);
+    width: 400px;
+    padding: 30px;
+}
+.text {
+    font-size: large;
+    font-family: 'bmjua';
+    padding: 50px;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.pic1 {
+    /*사진 크기를 줄일 순 없는가?*/
+    background: url(images/image_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    width : 400px;
+    height : 300px;
+}
+.bold {
+    font-weight: bold;
+    font-size: 40px;
+}
+a {
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+    border-radius: 15px;
+    /*나무위키 아래로 조금 내릴 수 있는가?*/
+}
+a:hover {
+    background-color: blue;
+    transition: 1s;
+}
