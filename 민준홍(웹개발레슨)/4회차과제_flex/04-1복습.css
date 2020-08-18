@@ -1,0 +1,82 @@
+.box {
+    background-color: rgb(245, 244, 244);
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px gray;
+    /*도형 그림자 생성*/
+}
+
+.title {
+    width: 280px;
+    /*박스 위치를 센터로 잡고싶으면?*/
+    position: relative;
+    left: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+}
+
+.titlefont {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.titlenumber {
+    font-weight: bold;
+    position: relative;
+    left: 60%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size : 6px;
+    margin : 0px 10px;
+}
+
+.info > .subtitlemiddle{
+    margin-right : 30px;
+}
+
+.line1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*원 만들때 border-radius: 50%; 활용*/
+.circle1 {
+    background-color: skyblue;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.line2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle2 {
+    background-color: grey;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+
+.line3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle3 {
+    background-color: green;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}

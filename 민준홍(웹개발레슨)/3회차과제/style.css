@@ -1,0 +1,41 @@
+@font-face { font-family: 'BMJUA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{
+	font-family: 'BMJUA';
+}
+.card{
+	padding: 30px;
+	background-color: blanchedalmond;
+	width: 400px;
+}
+.image {
+	background: url(https://cdn.pixabay.com/photo/2020/07/09/17/39/puppy-5388151__340.jpg);
+	background-size: 100% 100%;
+	width: 400px;
+	height : 300px;
+	border-radius: 15px;
+}
+.content{
+	margin-top : 10px;
+	padding : 15px;
+	border: 1px solid black;
+	border-radius: 15px;
+	font-size: 1.3em;
+	text-align: center;
+}
+.font-size__up{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.content > a {
+	background-color: brown;
+	color : white;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 1.4em;
+	border-radius: 10px;
+}
+.content > a:hover{
+	background-color: blanchedalmond;
+	color : brown;
+	transition: all ease-in-out 0.5s;
+}
