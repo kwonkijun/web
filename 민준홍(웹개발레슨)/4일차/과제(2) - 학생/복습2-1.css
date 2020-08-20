@@ -1,0 +1,88 @@
+.line1 {
+    width: 100%;
+    /* height 를 지정할 필요가 없다, 자식 요소 만큼 자동으로 늘어난다. = height : auto */ 
+    display: flex;
+    flex-direction: row;
+}
+
+.pic1 {
+    background: url(https://cdn.pixabay.com/photo/2020/06/24/19/41/cat-5337501_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height 가 auto 라면 사진의 크기 에 따라 높이가 줄어들고, 커진다.  40vh 는 화면의 40% 만큼 차지 한다. */ 
+    height: 40vh;
+    display: inline-block;
+}
+
+.box1 {
+    background-color: springgreen;    
+    width: 100%;
+    height: 40vh;
+    display: inline-block;
+}
+
+.font1 {
+    background-size: 80% auto;
+    margin-top: 80px;
+    margin-left: 20%;
+    text-align: center;
+    width: 60%;
+}
+
+.line2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box2 {
+    background-color: rgb(68, 47, 131);    
+    width: 100%;
+    height: 40vh;
+    display: inline-block;
+}
+
+.font2 {
+    background-size: 80% auto;
+    margin-top: 80px;
+    margin-left: 20%;
+    color: white;
+    text-align: center;
+    width: 60%;
+}
+
+
+.pic2 {
+    background: url(https://cdn.pixabay.com/photo/2018/06/11/00/21/foal-3467629_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    display: inline-block;
+}
+/*링크별 색상지정?? 클래스 지정? 을 할 수 있는 방법*/
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color : red;    
+}
+
+
+a {
+    display: block;
+    /*background-color: rgb(230, 143, 44);*/
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 30PX;
+    margin-bottom: 0px;
+}
+
+a:hover {
+    background-color: violet;
+    transition: 1s;
+}
