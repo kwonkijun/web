@@ -1,0 +1,5 @@
+#st__heading > .jumbotron{
+    background: url(../img/heading.jpg);
+    background-size: cover;
+    color : white;
+}
