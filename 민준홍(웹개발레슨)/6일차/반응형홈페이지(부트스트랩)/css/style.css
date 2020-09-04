@@ -1,5 +1,86 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'BMJUA';
+}            
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+#st__heading {
+    margin-top: 56px;
+}
+
 #st__heading > .jumbotron{
     background: url(../img/heading.jpg);
     background-size: cover;
     color : white;
+}
+
+.about__content{
+    display: flex;
+    margin: 0 200px;
+}
+
+.about__content > div:nth-child(1){
+    width: 50%;
+}
+.about__content img {
+    width : 100%;
+    border-radius: 15px;
+    margin : 10px;
+}
+.about__content > div:nth-child(2){
+    width: 50%;
+}
+
+.about__content .about__text{
+    margin : 15px;
+    font-size : 24px;
+}
+
+#st__team{
+    display: flex;
+    justify-content: center;
+}
+
+#st__team > .card {
+    margin : 0 15px;
+}
+
+#st__team .card-title {
+    text-align: center;
+}
+
+#st__map > iframe {
+    width: 100%;
+}
+
+footer > .jumbotron{
+    margin : 0;
+}
+
+@media screen and (max-width: 768px){
+    /* 모바일에 사용될 CSS를 정의 합니다. */ 
+    .about__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    #st__team {
+        flex-direction: column;
+        align-items: center;    
+    }
 }
