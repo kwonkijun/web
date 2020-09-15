@@ -1,0 +1,23 @@
+/* 1. 태그 선택자
+div {
+    background-color: blue;
+    font-size: 20px;  div 아래에 있는 태그의 폰트 사이즈는 20px이 된다 
+    color : white; 
+}
+h1{
+    font-size: 24px;
+}
+*/
+div {
+    font-size: 20px;
+}
+/* 2. 아이디 선택자 */
+#pickme {
+    color : orange;
+    font-size: 30px;
+}
+/* 3. 클래스 선택자 */
+.pickus {
+    color : orangered;
+    font-size : 30px;
+}
