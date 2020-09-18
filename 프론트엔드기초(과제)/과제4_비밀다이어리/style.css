@@ -1,0 +1,30 @@
+.title__container {
+	background-color: coral;
+	color : white;
+	text-align: center;
+}
+
+.diary__container {
+	background-color: dimgrey;
+	color: rgba(255, 255, 255, 0.651);
+	padding : 10px;
+	margin : auto;
+	max-width: 60em;
+}
+
+.diary {
+	border-bottom: 3px solid black;
+}
+
+.diary > p {
+	font-size: 20px;
+	text-align: right;
+}
+
+.diary > .content > div{
+	text-align: center;
+}
+.diary > .content > div > img {
+	width: 80%;
+	border-radius: 20px;
+}

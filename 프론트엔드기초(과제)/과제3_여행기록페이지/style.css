@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+}
+
+.logo {
+	margin-top: 80px;
+}
+
+.logo > img {
+	width: 165px;
+	height: 58px;
+}
+
+.nav {
+	margin: 60px 0;
+}
+
+.nav > a {
+	font-family: Helvetica;
+	color : rgb(88, 89, 91);
+	text-decoration: none;
+	margin: 0 20px;
+}
+
+.img > img{
+	width : 90%;
+}
