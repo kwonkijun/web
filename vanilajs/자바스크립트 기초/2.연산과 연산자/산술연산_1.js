@@ -1,6 +1,6 @@
 // 출력값을 예상해 보세요.
 
-console.log(11 + 3 * 4);
-console.log(25 / 5 + 15 % 4);
-console.log(33 - 5 ** 2);
-console.log((3 + 27) * 12 ** (5 % 3));
+console.log(11 + 3 * 4); // 23 23
+console.log(25 / 5 + 15 % 4); // 8 8
+console.log(33 - 5 ** 2); // 8 8 
+console.log((3 + 27) * 12 ** (5 % 3)); // 30*122 3660
