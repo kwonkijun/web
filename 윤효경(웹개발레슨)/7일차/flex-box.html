@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플렉스박스</title>
+    <style>
+        .box {
+            display: flex;
+            /* flex-direction: column; 정렬방향 (기본값 : row) */
+            /* justify-content: 주축에 대한 정렬방식 결정 flex-start : 기본값, flex-end : 끝으로 정렬, center : 가운데 정렬 */
+            /* justify-content: space-between; */
+            align-items: center;
+            height: 100vh;
+        }
+        .item {
+            width: 200px;
+            height: 200px;
+            background-color: darkgreen;
+        }
+        .item:nth-child(1){
+            background-color: darkorange;
+        }
+        .item:nth-child(3){
+            background-color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>
