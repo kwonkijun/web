@@ -2,7 +2,7 @@ const select = document.querySelector("js-select"),
  option = select.querySelector("option"),
  country = option.querySelector("value");
 const COUNTRY_LS = "currentCountry";
-const saveCountry(value) {
+function saveCountry(value) {
     localStorage.setItem(COUNTRY_LS, value);
 }
 function loadCountry() {
