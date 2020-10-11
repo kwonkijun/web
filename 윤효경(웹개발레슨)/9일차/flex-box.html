@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플렉스박스 레이아웃</title>
+    <style>
+        body, p, h1 {
+            margin: 0;
+        }
+        .container {
+            height : 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        .item {
+            flex-basis: 300px;
+            height : 200px; 
+        }
+
+        .item:nth-child(1){
+            flex-grow: 1;
+            flex-shrink: 2;
+            align-self: flex-end;
+            background-color: darkorange;
+        }
+        .item:nth-child(2){
+            flex-grow: 2;
+            align-self: center;
+            background-color: darkgreen;
+        }
+        .item:nth-child(3){
+            background-color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+    background-color: thistle;
+    text-align: center;
+}
+
+.first-box {
+    background: tomato;
+    width : 300px;
+    height : 400px;
+    /* 블락요소 가로중앙정렬 */ 
+    margin-left : auto;
+    margin-right : auto;
+}
