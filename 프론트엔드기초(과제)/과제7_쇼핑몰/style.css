@@ -65,3 +65,30 @@ body {
 	font-size: 24px;
 	color : #545454;
 }
+
+.product__container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+.product {
+	width : 300px;
+	height : 300px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.product > img {
+	width : 100%;
+	margin-bottom: 20px;
+}
+
+.product > .product__name {
+	margin-bottom : 4px;
+}
+
+.footer {
+	height: 400px;
+	background-color: grey;
+}
