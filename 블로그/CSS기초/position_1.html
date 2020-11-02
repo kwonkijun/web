@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>포지션 개념연습</title>
+	<style>
+		.box {
+			position: static;
+			width: 300px;
+			height : 300px;
+			margin-bottom: 20px;
+			background-color: steelblue;
+		}
+		.box:nth-child(2){
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			background-color: orange;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+</body>
+</html>
