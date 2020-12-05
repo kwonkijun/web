@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* CSS 주석 작성방법 */
+		div {
+			background-color: steelblue;
+		}
+		/* 아이디 선택자 (#) */
+		#hello{
+			color : white;
+			font-size: 36px;
+			text-align: center; /* 텍스트 중앙정렬 */
+		}
+		/* 클래스 선택자 (.) */
+		.large{
+			color : white;
+			font-size: 42px;
+		}
+		/* 자식 선택자 (>) */
+		div.parent > p{
+			color : white;
+			font-style: italic;
+		}
+		div.grand-parent p{
+			color : white;
+			text-decoration: line-through;
+			text-align: center;
+		}
+		div.group > h1, div.group > p {
+			color : white;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>1. 아이디선택자</h1>
+		<p id="hello">나만 선택해주세요</p>
+		<p>선택하지마요</p>
+		<p>선택하지마!</p>
+	</div>
+	<div>
+		<h1>2. 클래스선택자</h1>
+		<p>선택하지마요</p>
+		<p class="large">나를 선택해주세요</p>
+		<p class="large">나를 선택해주세요</p>
+	</div>
+	<div>
+		<h1>3. 자식선택자</h1>
+		<div class="parent">
+			<p>나를 뽑아주세요.</p>
+			<p>나는 뽑아주세요.</p>
+		</div>
+		<p>나는 선택하지마요.</p>
+	</div>
+	<div>
+		<h1>4. 후손선택자</h1>
+		<div class="grand-parent">
+			<p>나를 뽑아주세요.</p>
+			<p>나는 뽑아주세요.</p>
+			<div>
+				<p>나를 뽑아주세요.</p>
+			</div>
+		</div>
+		<p>나는 선택하지마요.</p>
+	</div>
+	<div>
+		<h1>5. 그룹선택자</h1>
+		<div class="group">
+			<h1>동시에 뽑아주세요</h1>
+			<p>나도 동시에 뽑아주세요</p>
+		</div>
+	</div>
+</body>
+</html>
