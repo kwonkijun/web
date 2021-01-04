@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Lemonada", cursive;
+}
+.main_container {
+  border: 1px solid whitesmoke;
+}
+.container {
+  display: flex;
+}
+
+.container img {
+  width: 50;
+  height: 40vh;
+  background-image: cover;
+}
+
+.item_img1 {
+  width: 50%;
+  height: 40vh;
+  background: url(https://image.shutterstock.com/image-photo/white-transparent-leaf-on-mirror-260nw-1029171697.jpg);
+  background-size: cover;
+}
+.item_img2 {
+  width: 50%;
+  height: 40vh;
+  background: url(https://image.shutterstock.com/image-photo/white-transparent-leaf-on-mirror-260nw-1029171697.jpg);
+  background-size: cover;
+}
+
+.item_text {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+}
+
+.item_text > a {
+  padding: 10px;
+  background-color: darksalmon;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.item_text > a:hover {
+  color: darkgoldenrod;
+  background-color: wheat;
+}
+
+.item_text > p:nth-child(1) {
+  font-weight: 600;
+  margin: 0;
+}

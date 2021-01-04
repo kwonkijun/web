@@ -18,7 +18,7 @@ html,body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width : 100%;
+	width : 50%;
 	height : 40vh;
 	background-color: wheat;
 	text-align: center;
@@ -44,7 +44,7 @@ html,body {
 }
 
 .image__box {
-	width : 100%;
+	width : 50%;
 	height : 40vh;
 	
 }
