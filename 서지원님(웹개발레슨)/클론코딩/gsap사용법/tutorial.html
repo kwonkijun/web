@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            height: 15vh;
+            background-color: tomato;
+        }
+        .links {
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+        .main {
+            font-size: 30px;
+            padding: 50px;
+        }
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: steelblue;
+            margin-bottom: 100px;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="links">
+            <div class="link">Link 1</div>
+            <div class="link">Link 2</div>
+            <div class="link">Link 3</div>
+        </div>
+    </div>
+    <div class="main">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolores ratione modi ad, aperiam repellat consequuntur eaque, at inventore cum, possimus quasi ea corporis molestiae corrupti! Ullam ipsa quo illo.
+        <button class="button">reverse</button>
+    </div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

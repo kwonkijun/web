@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex - Box 연습</title>
+    <style>
+        * {
+            margin : 0;
+        }
+        
+        html, body, .container {
+            height: 100%;
+        } 
+
+        .container{
+            display: flex; 
+            flex-direction: row;
+            justify-content: center; /* 중심축 정렬방식*/
+            align-items: center;/* 반대축 정렬방식 */
+            flex-wrap: wrap;  
+        }
+        
+        .item {
+            width : 150px;
+            height : 150px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            background-color: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>

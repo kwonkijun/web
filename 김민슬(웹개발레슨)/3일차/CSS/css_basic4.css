@@ -1,0 +1,17 @@
+.box1, .box2, .box3 {
+    height: 100px;
+}
+
+.box1{
+    background-color: orange;
+    width: 200px; 
+    float: left;
+}
+
+.box2{
+    background-color: steelblue;
+}
+
+.box3{
+    background-color: green;
+}

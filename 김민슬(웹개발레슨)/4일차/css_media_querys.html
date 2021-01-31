@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 32px;
+        }
+        h1 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 0.5rem;
+        }
+        body {
+            background-color: steelblue;
+        }
+        @media screen and (max-width: 768px){
+            /* 화면의 가로크기가 768px 보다 작아질 경우 */
+            body {
+                background-color: tomato;
+            }
+            html {
+                font-size: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        안녕하세요! 브라우저 화면에 따라 글자 크기가 어떻게 바뀌는지 확인해 보세요
+    </h1>
+    <p>안녕하세요! 브라우저 화면에 따라 글자 크기가 어떻게 바뀌는지 확인해 보세요</p>
+</body>
+</html>

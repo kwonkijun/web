@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    z-index: 1000;
+}
+.navbar {
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-item {
+    font-size: 18px;
+    color: rgb(89, 92, 100);
+    margin-right: 30px;
+}
+.blueBtn{
+    background-color: rgb(20, 89, 230);
+    padding: 5px 12px;
+    border-radius: 50px;
+    color : white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.language {
+    font-size: 16px;
+    font-weight: 600;
+    color : rgb(89, 92, 100);
+    text-decoration: none;
+}
+.language > i {
+    margin-right: 10px;
+}
+
+.about-labs {
+    margin-top: 100px;
+}
+
+.about-labs h2, .about-henesis h2, .about-audit h2 {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.about-labs p, .about-henesis p, .about-audit p {
+    font-size: 20px;
+    color : rgb(89, 92, 100);
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container > a {
+    text-decoration: none;
+}
+
+.customers {
+    margin: 250px 0;
+}
+
+.customers .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customers img {
+    width: 200px;
+}
+
+.about-henesis .text-container {
+    padding-left: 40px;
+}
+
+.about-audit {
+    margin: 250px 0;
+}
+
+.news {
+    color:  rgb(89, 92, 100);
+}
+
+.news-title {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1;
+    text-decoration: none;
+    color:  rgb(89, 92, 100);
+}
+
+.recruit {
+    text-align: center;
+    padding: 200px 0;
+    background-color: rgb(250, 251, 252);
+}
+
+.recruit h2 {
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.recruit p {
+    font-size: 20px;
+    color : rgb(89, 92, 100);
+    margin-bottom: 40px;
+}
+
+.recruit a {
+    padding: 15px 50px;
+    background-color: rgb(20, 89, 230);
+    border-radius: 50px;
+    color : white;
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+}
+
+.recruit a:hover {
+    background-color: rgb(40, 105, 235);
+}
+
+footer {
+    padding-top: 150px;
+    padding-bottom: 300px;
+    background-color: rgb(6, 6, 7);
+    color : rgb(195, 197, 199);
+}
+
+footer a {
+    text-decoration: none;
+    color : rgb(195, 197, 199);
+    padding-right: 30px;
+}
+/* 모바일*/
+
+@media screen and (max-width: 768px){ 
+    .about-labs h2, .about-henesis h2, .about-audit h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .about-labs p, .about-henesis p, .about-audit p {
+        font-size: 18px;
+        color : rgb(89, 92, 100);
+    }
+}
